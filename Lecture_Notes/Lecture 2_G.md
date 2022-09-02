@@ -12,3 +12,4 @@
 * If a machine has these properties, then it can be virtualized.
 * **Theorem**
     * An architecture can be virtualized if sensitive instructions (instructions that change system state) are a subset of privileged instructions (can be only executed in kernel mode).
+    * Regular instructions can be directly run.
